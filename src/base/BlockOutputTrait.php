@@ -1,12 +1,12 @@
 <?php
 
-namespace ostark\Yii2ArtisanBridge\base;
+namespace fortrabbit\Yii2ArtisanBridge\base;
 
 /**
  * Trait BlockOutputTrait
  *
- * @property \ostark\Yii2ArtisanBridge\ConsoleOutput $input
- * @property \ostark\Yii2ArtisanBridge\OutputStyle  $output
+ * @property \fortrabbit\Yii2ArtisanBridge\ConsoleOutput $input
+ * @property \fortrabbit\Yii2ArtisanBridge\OutputStyle  $output
  */
 trait BlockOutputTrait
 {

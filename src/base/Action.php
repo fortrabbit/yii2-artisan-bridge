@@ -1,20 +1,20 @@
-<?php namespace ostark\Yii2ArtisanBridge\base;
+<?php namespace fortrabbit\Yii2ArtisanBridge\base;
 
-use ostark\Yii2ArtisanBridge\ConsoleOutput;
-use ostark\Yii2ArtisanBridge\OutputStyle;
+use fortrabbit\Yii2ArtisanBridge\ConsoleOutput;
+use fortrabbit\Yii2ArtisanBridge\OutputStyle;
 use Symfony\Component\Console\Input\ArgvInput;
 use yii\base\Action as YiiBaseAction;
 
 /**
  * Class Action
  *
- * @package ostark\Yii2ArtisanBridge\base
+ * @package fortrabbit\Yii2ArtisanBridge\base
  *
  */
 abstract class Action extends YiiBaseAction
 {
     /**
-     * @var \ostark\Yii2ArtisanBridge\OutputStyle
+     * @var \fortrabbit\Yii2ArtisanBridge\OutputStyle
      */
 
     protected $output;
@@ -42,7 +42,7 @@ abstract class Action extends YiiBaseAction
      * Action constructor.
      *
      * @param string               $id
-     * @param \ostark\Yii2ArtisanBridge\base\Commands $controller
+     * @param \fortrabbit\Yii2ArtisanBridge\base\Commands $controller
      * @param array                $config
      */
     public function __construct(string $id, Commands $controller, array $config = [])

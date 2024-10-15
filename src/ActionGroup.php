@@ -1,6 +1,6 @@
 <?php
 
-namespace ostark\Yii2ArtisanBridge;
+namespace fortrabbit\Yii2ArtisanBridge;
 
 class ActionGroup
 {

@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ostark\\Yii2ArtisanBridge\\": "src/"
+      "fortrabbit\\Yii2ArtisanBridge\\": "src/"
     }
   }
 }
