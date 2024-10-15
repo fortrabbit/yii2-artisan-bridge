@@ -1,8 +1,8 @@
 <?php
 
-namespace ostark\Yii2ArtisanBridge;
+namespace fortrabbit\Yii2ArtisanBridge;
 
-use ostark\Yii2ArtisanBridge\base\Commands;
+use fortrabbit\Yii2ArtisanBridge\base\Commands;
 
 class Bridge
 {

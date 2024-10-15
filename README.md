@@ -6,7 +6,7 @@ This library brings the ease of Artisan commands and the power of Symfony consol
 
 Require the package:
 ```
-composer require ostark/yii2-artisan-bridge
+composer require fortrabbit/yii2-artisan-bridge
 ```
 
 ### Configure actions for a Craft 5 plugin
@@ -15,8 +15,8 @@ composer require ostark/yii2-artisan-bridge
 
 use Craft;
 use craft\base\Plugin as BasePlugin;
-use ostark\Yii2ArtisanBridge\ActionGroup;
-use ostark\Yii2ArtisanBridge\Bridge;
+use fortrabbit\Yii2ArtisanBridge\ActionGroup;
+use fortrabbit\Yii2ArtisanBridge\Bridge;
 use you\PluginName\actions\ActionOne;
 use you\PluginName\actions\ActionTwo;
 
@@ -65,7 +65,7 @@ it must be declared as a public property in the Action class.
 <?php namespace you\PluginName\actions;
 
 use Craft;
-use ostark\Yii2ArtisanBridge\base\Action as BaseAction;
+use fortrabbit\Yii2ArtisanBridge\base\Action as BaseAction;
 use yii\console\ExitCode;
 
 class ActionOne extends BaseAction {

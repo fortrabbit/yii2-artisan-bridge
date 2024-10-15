@@ -1,6 +1,6 @@
 <?php
 
-namespace ostark\Yii2ArtisanBridge;
+namespace fortrabbit\Yii2ArtisanBridge;
 
 use Symfony\Component\Console\Input\ArgvInput;
 use yii\console\UnknownCommandException;
@@ -9,7 +9,7 @@ use yii\console\UnknownCommandException;
 /**
  * Symfony console I/O
  *
- * @package ostark\Yii2ArtisanBridge
+ * @package fortrabbit\Yii2ArtisanBridge
  */
 class ErrorHandler extends \yii\console\ErrorHandler
 {

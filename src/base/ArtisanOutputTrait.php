@@ -1,6 +1,6 @@
 <?php
 
-namespace ostark\Yii2ArtisanBridge\base;
+namespace fortrabbit\Yii2ArtisanBridge\base;
 
 use Symfony\Component\Console\Helper\Table;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -14,8 +14,8 @@ use yii\base\Arrayable;
  * Borrowed from Illuminate\Console\Command
  * @see https://github.com/laravel/framework/blob/5.6/src/Illuminate/Console/Command.php
  *
- * @property \ostark\Yii2ArtisanBridge\ConsoleOutput $input
- * @property \ostark\Yii2ArtisanBridge\OutputStyle  $output
+ * @property \fortrabbit\Yii2ArtisanBridge\ConsoleOutput $input
+ * @property \fortrabbit\Yii2ArtisanBridge\OutputStyle  $output
  *
  */
 trait ArtisanOutputTrait

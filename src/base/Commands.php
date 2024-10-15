@@ -1,8 +1,8 @@
 <?php
 
-namespace ostark\Yii2ArtisanBridge\base;
+namespace fortrabbit\Yii2ArtisanBridge\base;
 
-use ostark\Yii2ArtisanBridge\ErrorHandler;
+use fortrabbit\Yii2ArtisanBridge\ErrorHandler;
 use Yii;
 use yii\base\ActionEvent;
 use yii\console\Controller as BaseConsoleController;
