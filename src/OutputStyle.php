@@ -28,13 +28,14 @@ class OutputStyle extends SymfonyStyle
             $this->write(sprintf("<%s>%s</>", $style, $char));
 
             if (is_int($speed) && $speed > 0) {
-                $delay = rand(10000, 1000000) / $speed;
-                usleep($delay);
+                usleep(intdiv(rand(10000, 1000000), $speed));
             }
         }
 
         // delay before new line
-        usleep(1000000 / $speed);
+        if ($speed > 0) {
+            usleep((int) (1000000 / $speed));
+        }
         $this->newLine();
     }
 }
