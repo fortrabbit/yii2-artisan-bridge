@@ -1,6 +1,7 @@
 {
   "name": "fortrabbit/yii2-artisan-bridge",
   "description": "Forked from ostark/yii2-artisan-bridge. Brings the ease of Artisan commands and the power of Symfony console to Yii2.",
+  "homepage": "https://www.fortrabbit.com",
   "type": "library",
   "keywords": [
     "craftcms",
