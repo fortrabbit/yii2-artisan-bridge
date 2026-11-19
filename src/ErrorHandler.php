@@ -49,7 +49,7 @@ class ErrorHandler extends \yii\console\ErrorHandler
      *
      * @return string|void
      */
-    protected function render(string $title, array $messages, string $trace = null)
+    protected function render(string $title, array $messages, ?string $trace = null)
     {
         $output   = new OutputStyle(new ArgvInput(), new ConsoleOutput());
         $messages = array_merge(["<fg=white;bg=red;options=bold>$title</>"], $messages);
